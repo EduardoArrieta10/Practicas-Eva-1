@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Luna"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-18 09:34:51 p. m."/>
+        <attribute name="created" value="THVuYTtERVNLVE9QLTNJRE1RSlA7MjAxOC0wOS0xODswNzoxOToxNiBwLiBtLjsyOTcy"/>
+        <attribute name="edited" value="THVuYTtERVNLVE9QLTNJRE1RSlA7MjAxOC0wOS0xODswOTozNDo1MSBwLiBtLjsxOzMwNzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Introduce numerador&quot;" newline="True"/>
+            <declare name="anum" type="Real" array="False" size=""/>
+            <input variable="anum"/>
+            <output expression="&quot;Introduce denominador&quot;" newline="True"/>
+            <declare name="aden" type="Real" array="False" size=""/>
+            <input variable="aden"/>
+            <output expression="&quot;Introduce otro numerador&quot;" newline="True"/>
+            <declare name="bnum" type="Real" array="False" size=""/>
+            <input variable="bnum"/>
+            <output expression="&quot;Introduce otro denominador&quot;" newline="True"/>
+            <declare name="bden" type="Real" array="False" size=""/>
+            <input variable="bden"/>
+            <output expression="&quot; La suma es &quot;" newline="True"/>
+            <output expression="((anum * bden) + (aden * bnum))" newline="False"/>
+            <output expression="&quot; / &quot;" newline="False"/>
+            <output expression="(aden * bden)" newline="True"/>
+            <output expression="&quot;La resta es &quot;" newline="True"/>
+            <output expression="((anum * bden) - (aden * bnum))" newline="False"/>
+            <output expression="&quot;/&quot;" newline="False"/>
+            <output expression="(aden * bden)" newline="False"/>
+            <output expression="&quot;&quot;" newline="True"/>
+            <output expression="&quot;La multiplicacion es &quot;" newline="True"/>
+            <output expression="(anum * bnum)" newline="False"/>
+            <output expression="&quot;/&quot;" newline="False"/>
+            <output expression="(aden * bden)" newline="False"/>
+            <output expression="&quot;&quot;" newline="True"/>
+            <output expression="&quot; La divicion es &quot;" newline="True"/>
+            <output expression="anum * bden" newline="False"/>
+            <output expression="&quot;/&quot;" newline="False"/>
+            <output expression="aden * bnum" newline="False"/>
+        </body>
+    </function>
+    <function name="fracciondesu" type="None" variable="">
+        <parameters>
+            <parameter name="fraccion" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <input variable="&quot; / &quot;"/>
+        </body>
+    </function>
+</flowgorithm>
